@@ -12,7 +12,7 @@ export function CreateTripPage() {
   const [isGuestsModalOpen, setIsGuestsModalOpen] = useState(false)
   const [isConfirmTripModalOpen, setIsConfirmTripModalOpen] = useState(false)
   const [emailsToInvite, setEmailsToInvite] = useState([
-    'ayavaisefude@gmail.com',
+    'joaomilholo12@gmail.com',
     'jon@acme.com'
   ])
 
