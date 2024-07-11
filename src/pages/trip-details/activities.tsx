@@ -1,4 +1,4 @@
-import { CircleCheck, TrendingUp } from "lucide-react";
+import { CircleCheck } from "lucide-react";
 import { api } from "../../lib/axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";

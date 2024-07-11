@@ -2,7 +2,7 @@ import { Calendar, Tag, X } from "lucide-react";
 import { Button } from "../../components/button";
 import type { FormEvent } from "react";
 import { api } from "../../lib/axios";
-import { useNavigate, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 
 interface CreateActivityModalProps {
   closeCreateActivityModal: () => void
@@ -70,6 +70,8 @@ export function CreateActivityModal({
               Salvar atividade
             </Button>
           </form>
+
+          
       </div>
     </div>
   )
